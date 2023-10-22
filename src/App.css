@@ -1,3 +1,23 @@
 .App {
   text-align: center;
 }
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.delete {
+  color: tomato;
+  cursor: pointer;
+}
+
+.checkbox:checked + .text {
+  text-decoration: line-through;
+}
